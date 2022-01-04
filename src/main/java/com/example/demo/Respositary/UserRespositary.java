@@ -19,6 +19,9 @@ public class UserRespositary {
 	private static final String INSERT_USER_QUERY="insert into useraddress(fname,lname,namefather,address,phoneno,username,password) values(?,?,?,?,?,?,?)";
 	private static final String GET_ALLUSER="SELECT * FROM useraddress ";
 	
+	
+	
+	
 	@Autowired
 	private JdbcTemplate jdbctemplate;
 ObjectMapper objectMapper=new ObjectMapper();
