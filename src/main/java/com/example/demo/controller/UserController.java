@@ -27,7 +27,7 @@ public class UserController {
 	
 	
 	
-	@PostMapping("/savee")
+	@PostMapping("/savedata")
 	public void addUser(@Valid @RequestBody UserAdd userAdd) {
 		String password=userAdd.getPassword();
 		String conpassword=userAdd.getConpassword();
